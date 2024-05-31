@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #16a3d77b;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.container-1 {
+  background-image: url('back.avif'); /* Path to your image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image */
+  padding: 20px;
+  position: relative;
+  isolation: isolate;
+  background-position: top 40%  left 80%;
+  padding-bottom: 21%;
+  border-radius: 15px;
+  border: 5px solid #a6cae2;
+}
+
+button {
+  background-color: #573cc288;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #198eb185;
+}
+
+#output {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+   
+}
